@@ -74,7 +74,7 @@ If there's a recent note, surface its first 280 characters. If not, say "No rece
 After step 3 or 4, propose actionable next steps. Examples:
 
 - "Ticket 12345 (P1 in Service, 4 days stale) — recommend status flip to 'Waiting Customer' and ping the requester."
-- "Two P2 tickets on the LV board both last touched the same day — looks like batch from the same incident; consider grouping."
+- "Two P2 tickets on the same board both last touched the same day — looks like batch from the same incident; consider grouping."
 
 **Do not write to ConnectWise without explicit user confirmation.** Always describe the proposed change in natural language first ("I'll flip 12345 to 'Waiting Customer' and add an internal note saying X — proceed?"), then act only after the user says yes.
 
