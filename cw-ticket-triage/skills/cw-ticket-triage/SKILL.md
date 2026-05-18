@@ -1,11 +1,11 @@
 ---
 name: cw-ticket-triage
-description: "Pull the user's open ConnectWise tickets, summarize by board, status, and priority, and propose triage actions. Use when Travis or another RX Tech user says \"what's on my plate\", \"triage my tickets\", \"open tickets\", \"my queue\", \"what's assigned to me\", or asks about specific board status. Also triggers on direct ticket-number references like \"what's the status of 12345\" or \"look up ticket 98765\"."
+description: "Pull the user's open ConnectWise tickets, summarize by board, status, and priority, and propose triage actions. Use when Travis or another Rx Tech user says \"what's on my plate\", \"triage my tickets\", \"open tickets\", \"my queue\", \"what's assigned to me\", or asks about specific board status. Also triggers on direct ticket-number references like \"what's the status of 12345\" or \"look up ticket 98765\"."
 ---
 
 # ConnectWise Ticket Triage
 
-This skill helps an RX Tech user triage their open ConnectWise tickets. It uses the `cw-*` tools served by the RX Tech MCP server at `mcp.rxtech.app/mcp`.
+This skill helps an Rx Tech user triage their open ConnectWise tickets. It uses the `cw-*` tools served by the Rx Tech MCP server at `mcp.rxtech.app/mcp`.
 
 ## When to use
 
@@ -91,11 +91,11 @@ For any write action, surface a one-line confirmation message after the call suc
 - Multi-user team triage (other people's queues) — separate skill if needed
 - Creating brand-new tickets — separate skill `cw-ticket-create` if requested
 - SLA reporting / time-entry summarization — separate skill `cw-time-tracking` if requested
-- Cross-customer aggregation — RX Tech-internal triage only; if MSP-wide views are needed, scope a new skill
+- Cross-customer aggregation — Rx Tech-internal triage only; if MSP-wide views are needed, scope a new skill
 
 ## Reference
 
-The ConnectWise tools available on the RX Tech MCP server (kebab-case namespaced):
+The ConnectWise tools available on the Rx Tech MCP server (kebab-case namespaced):
 
 - Read: `cw-get-tickets`, `cw-get-companies`, `cw-get-contacts`, `cw-get-members`, `cw-get-time-entries`
 - Describe (taxonomies): `cw-describe-boards`, `cw-describe-statuses`, `cw-describe-priorities`, `cw-describe-types`, `cw-describe-status-mapping`
