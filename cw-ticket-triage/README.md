@@ -2,7 +2,7 @@
 
 _Pull the user's open ConnectWise tickets, summarize by board, status, and priority, and propose triage actions. Use when Travis or another Rx Tech user says "what's on my plate", "triage my tickets", "open tickets", "my queue", "what's assigned to me", or asks about specific board status. Also triggers on direct ticket-number references like "what's the status of 12345" or "look up ticket 98765"._
 
-Version: 0.1.3
+Version: 0.1.4
 
 ## Install
 
