@@ -1,6 +1,6 @@
 ---
 name: cw-ticket-triage
-description: "Pull the user's open ConnectWise tickets, summarize by board, status, and priority, and propose triage actions. Use when Travis or another Rx Tech user says \"what's on my plate\", \"triage my tickets\", \"open tickets\", \"my queue\", \"what's assigned to me\", or asks about specific board status. Also triggers on direct ticket-number references like \"what's the status of 12345\" or \"look up ticket 98765\"."
+description: Pull the user's open ConnectWise tickets, summarize by board, status, and priority, and propose triage actions. Use when Travis or another Rx Tech user says "what's on my plate", "triage my tickets", "open tickets", "my queue", "what's assigned to me", or asks about specific board status. Also triggers on direct ticket-number references like "what's the status of 12345" or "look up ticket 98765".
 ---
 
 # ConnectWise Ticket Triage
